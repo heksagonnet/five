@@ -1,0 +1,136 @@
+$dark-color: rgb(34, 39, 46);
+$light-color: hsl(0, 0%, 99%);
+$primary-color: hsl(171, 100%, 41%);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+::selection {
+  background-color: $primary-color;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.standard-radius {
+  border-radius: 10px;
+}
+
+.late-gray-bg {
+  background-color: $dark-color;
+}
+
+.font-light {
+  color: $light-color;
+}
+
+.title {
+  opacity: 0.8;
+}
+.subtitle {
+  opacity: 0.3;
+}
+
+.level-item {
+  padding: 1em 0;
+}
+
+.title-underline {
+  border-bottom: 10px solid $primary-color;
+}
+
+.w-full {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #navbarMenuHeroB {
+    display: none;
+  }
+}
+
+.navbar-burger span {
+  width: 30px;
+}
+
+.navbar-menu {
+  background-color: $dark-color;
+}
+
+.mobile-menu {
+  color: $light-color;
+  animation: menuAnimation 0.3s ease;
+}
+
+.hero-body {
+  position: relative;
+}
+
+.main-hero {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-image: url('/cover.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.is-large {
+  padding: 10rem 0;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+  transition: all ease 300ms;
+  span {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $light-color;
+    display: none;
+    text-align: center;
+    transition: all ease 300ms;
+  }
+}
+figure,
+img {
+  overflow: hidden;
+  cursor: pointer;
+  transition: all ease 300ms;
+}
+
+figure:hover {
+  img {
+    transform: scale(1.03);
+    filter: brightness(50%);
+  }
+  span {
+    display: block;
+  }
+}
+.form {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes menuAnimation {
+  0% {
+    margin-top: -100px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
