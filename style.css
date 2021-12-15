@@ -62,8 +62,8 @@ html {
 
 .mobile-menu {
   color: #fcfcfc;
-  -webkit-animation: menuAnimation 0.3s ease;
-          animation: menuAnimation 0.3s ease;
+  -webkit-animation: menuAnimation 300ms ease;
+          animation: menuAnimation 300ms ease;
 }
 
 .hero-body {
