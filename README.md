@@ -23,8 +23,8 @@ Five is a live preview of [a beginner-friendly tutorial on making a resume/portf
 
 ## Preview
 
-<kbd>![Desktop Preview](https://www.heksagon.net/template/five/cover.webp#center 'Desktop Preview')</kbd>
-<kbd>![Mobile Preview](https://www.heksagon.net/template/five/mobile.webp#center 'Mobile Preview')</kbd>
+<kbd>![Desktop Preview](/template/five/cover.webp#center 'Desktop Preview')</kbd>
+<kbd>![Mobile Preview](/template/five/mobile.webp#center 'Mobile Preview')</kbd>
 
 ---
 
