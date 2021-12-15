@@ -32,7 +32,7 @@ Five is a live preview of [a beginner-friendly tutorial on making a resume/portf
 
 If you like this template, please give a star at its [GitHub Page](https://github.com/heksagonnet/five), and consider supporting me at:
 
-[{{< figure src="https://www.ko-fi.com/img/githubbutton_sm.svg#center" alt="Support Me" href="https://ko-fi.com/heksagon" title=" " width="600px">}}](https://ko-fi.com/heksagon)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/heksagon)
 
 Your support is greatly appreciated 😊
 
