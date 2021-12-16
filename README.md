@@ -25,8 +25,8 @@ Five is a live preview of [a beginner-friendly tutorial on making a resume/portf
 
 ## Preview
 
-<kbd>![Desktop Preview](/five/cover.webp#center 'Desktop Preview')</kbd>
-<kbd>![Mobile Preview](/five/mobile.webp#center 'Mobile Preview')</kbd>
+<kbd>![Desktop Preview](https://heksagonnet.github.io/five/five/cover.webp#center 'Desktop Preview')</kbd>
+<kbd>![Mobile Preview](https://heksagonnet.github.io/five/five/mobile.webp#center 'Mobile Preview')</kbd>
 
 ---
 
